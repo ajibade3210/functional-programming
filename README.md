@@ -58,9 +58,8 @@ public static void printSquareNumberInList(List<Integer> numbers) {
                 .forEach(System.out::println);
     }
 ```
-
- // .filter(FP01Functional::isEven)  //Method Reference
-//                MR  refers to code defined some where else
+- .filter(FP01Functional::isEven)  
+Method Reference:: MR  refers to code defined some where else
 
 
 ```
